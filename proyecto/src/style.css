@@ -1,0 +1,70 @@
+*{
+margin: 0;
+box-sizing: border-box;
+}
+
+button{
+background-color: transparent;
+border: unset;
+cursor: pointer;
+margin: 0;
+transition: 0.5s;
+}
+/* lista */
+.c-lista{
+display: flex;
+gap: 10px;
+flex-wrap: wrap;
+}
+
+.c-lista-pokemon{
+background-color: aliceblue;
+width: calc(50% - 5px);
+padding: 10px;
+text-align: center;
+}
+
+/* navegacion */
+.c-nav{
+position: fixed;
+bottom: 0;
+left: 0;
+background: silver;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+padding: 10px 15px;
+gap: 10px;
+}
+
+.c-nav-item{
+width: calc(20% - 8.5px);
+background-color: red;
+}
+.c-nav-item:hover{
+color: yellow;
+}
+
+/* mios */
+
+.c-unpoke{
+background-color: #171717;
+width: calc(25% - 7.5px);
+height: 85px;
+padding: 10px;
+
+text-align: center;
+color: rgb(255, 255, 255);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+
+
+.c-mios-pokemon{
+background-color: aliceblue;
+color: #171717
+}
